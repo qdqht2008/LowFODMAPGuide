@@ -32,12 +32,6 @@
                     <a href="#recipes" class="nav-link" data-i18n="nav.recipes">Recipes</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#guides" class="nav-link" data-i18n="nav.guides">Guides & Tips</a>
-                </li>
-                <li class="nav-item">
-                    <a href="blog.html" class="nav-link" data-i18n="nav.blog">Blog</a>
-                </li>
-                <li class="nav-item">
                     <a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a>
                 </li>
             </ul>
@@ -176,15 +170,6 @@
                 </div>
             </div>
 
-            <div class="download-section">
-                <h3 data-i18n="food-lists.download.title">Download Our Complete Food Lists</h3>
-                <p data-i18n="food-lists.download.desc">Get our comprehensive PDF guides for easy reference</p>
-                <div class="download-buttons">
-                    <a href="#" class="btn btn-primary" data-i18n="food-lists.download.high">Download High FODMAP List</a>
-                    <a href="#" class="btn btn-primary" data-i18n="food-lists.download.low">Download Low FODMAP List</a>
-                    <a href="#" class="btn btn-secondary" data-i18n="food-lists.download.complete">Download Complete Guide</a>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -209,56 +194,71 @@
         </div>
     </section>
 
-    <!-- Guides Section -->
-    <section id="guides" class="guides">
+
+    <!-- Educational Video Section -->
+    <section class="video-section">
         <div class="container">
-            <h2 class="section-title" data-i18n="guides.title">Guides & Tips</h2>
-            <p class="section-subtitle" data-i18n="guides.subtitle">Everything you need to succeed on your Low FODMAP journey</p>
+            <h2 class="section-title" data-i18n="video.title">Learn More About Low FODMAP</h2>
+            <p class="section-subtitle" data-i18n="video.subtitle">Watch this comprehensive guide to understand the Low FODMAP diet better</p>
+            <div class="video-container">
+                <iframe 
+                    width="100%" 
+                    height="400" 
+                    src="https://www.youtube.com/embed/N2Y9cdl4M1o" 
+                    title="Low FODMAP Diet Guide" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
 
-            <div class="guides-grid">
-                <div class="guide-card">
-                    <h3 data-i18n="guides.getting-started.title">Getting Started</h3>
-                    <p data-i18n="guides.getting-started.desc">Complete beginner's guide to starting the Low FODMAP diet</p>
-                    <ul>
-                        <li data-i18n="guides.getting-started.1">How to prepare for elimination phase</li>
-                        <li data-i18n="guides.getting-started.2">Essential kitchen tools</li>
-                        <li data-i18n="guides.getting-started.3">Meal planning basics</li>
-                    </ul>
-                    <a href="#" class="guide-link" data-i18n="guides.read">Read Guide</a>
+    <!-- External Resources Section -->
+    <section class="resources-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="resources.title">Trusted Resources & Further Reading</h2>
+            <p class="section-subtitle" data-i18n="resources.subtitle">Explore these authoritative sources for more in-depth information about the Low FODMAP diet</p>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">🏥</div>
+                    <h3 data-i18n="resources.cleveland.title">Cleveland Clinic</h3>
+                    <p data-i18n="resources.cleveland.desc">Comprehensive medical information about Low FODMAP diet from a leading healthcare institution</p>
+                    <a href="https://my.clevelandclinic.org/health/treatments/22466-low-fodmap-diet" target="_blank" class="resource-link" data-i18n="resources.visit">Visit Resource</a>
                 </div>
-
-                <div class="guide-card">
-                    <h3 data-i18n="guides.dining-out.title">Dining Out</h3>
-                    <p data-i18n="guides.dining-out.desc">Tips for maintaining your diet while eating out</p>
-                    <ul>
-                        <li data-i18n="guides.dining-out.1">Restaurant ordering strategies</li>
-                        <li data-i18n="guides.dining-out.2">Safe menu options</li>
-                        <li data-i18n="guides.dining-out.3">Travel dining tips</li>
-                    </ul>
-                    <a href="#" class="guide-link" data-i18n="guides.read">Read Guide</a>
+                <div class="resource-card">
+                    <div class="resource-icon">📚</div>
+                    <h3 data-i18n="resources.monash.title">Monash University</h3>
+                    <p data-i18n="resources.monash.desc">The original creators of the Low FODMAP diet - the most authoritative source</p>
+                    <a href="https://www.monashfodmap.com/ibs-central/i-have-ibs/starting-the-low-fodmap-diet/" target="_blank" class="resource-link" data-i18n="resources.visit">Visit Resource</a>
                 </div>
-
-                <div class="guide-card">
-                    <h3 data-i18n="guides.shopping.title">Grocery Shopping</h3>
-                    <p data-i18n="guides.shopping.desc">Navigate the supermarket with confidence</p>
-                    <ul>
-                        <li data-i18n="guides.shopping.1">Reading food labels</li>
-                        <li data-i18n="guides.shopping.2">Hidden FODMAP sources</li>
-                        <li data-i18n="guides.shopping.3">Budget-friendly shopping</li>
-                    </ul>
-                    <a href="#" class="guide-link" data-i18n="guides.read">Read Guide</a>
+                <div class="resource-card">
+                    <div class="resource-icon">🏥</div>
+                    <h3 data-i18n="resources.hopkins.title">Johns Hopkins Medicine</h3>
+                    <p data-i18n="resources.hopkins.desc">Expert medical guidance on FODMAP diet from Johns Hopkins</p>
+                    <a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/fodmap-diet-what-you-need-to-know" target="_blank" class="resource-link" data-i18n="resources.visit">Visit Resource</a>
                 </div>
-
-                <div class="guide-card">
-                    <h3 data-i18n="guides.mistakes.title">Common Mistakes</h3>
-                    <p data-i18n="guides.mistakes.desc">Avoid these common pitfalls</p>
-                    <ul>
-                        <li data-i18n="guides.mistakes.1">Portion size mistakes</li>
-                        <li data-i18n="guides.mistakes.2">Stacking FODMAPs</li>
-                        <li data-i18n="guides.mistakes.3">Rushing reintroduction</li>
-                    </ul>
-                    <a href="#" class="guide-link" data-i18n="guides.read">Read Guide</a>
+                <div class="resource-card">
+                    <div class="resource-icon">📖</div>
+                    <h3 data-i18n="resources.healthline.title">Healthline</h3>
+                    <p data-i18n="resources.healthline.desc">Evidence-based information about FODMAPs and digestive health</p>
+                    <a href="https://www.healthline.com/nutrition/fodmaps-101" target="_blank" class="resource-link" data-i18n="resources.visit">Visit Resource</a>
                 </div>
+                <div class="resource-card">
+                    <div class="resource-icon">📄</div>
+                    <h3 data-i18n="resources.virginia.title">UVA Health Guide</h3>
+                    <p data-i18n="resources.virginia.desc">Detailed PDF guide with comprehensive Low FODMAP instructions</p>
+                    <a href="https://med.virginia.edu/ginutrition/wp-content/uploads/sites/199/2023/12/Low-FODMAP-Diet-and-Instructions-2023.pdf" target="_blank" class="resource-link" data-i18n="resources.visit">Download PDF</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">🔬</div>
+                    <h3 data-i18n="resources.dietvsdisease.title">Diet vs Disease</h3>
+                    <p data-i18n="resources.dietvsdisease.desc">DIY Low FODMAP diet guide with practical implementation tips</p>
+                    <a href="https://www.dietvsdisease.org/diy-low-fodmap-diet/" target="_blank" class="resource-link" data-i18n="resources.visit">Visit Resource</a>
+                </div>
+            </div>
+            <div class="resources-note">
+                <p data-i18n="resources.note">These resources are provided for educational purposes only. Always consult with a healthcare professional before making significant dietary changes.</p>
             </div>
         </div>
     </section>
@@ -316,40 +316,52 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
+                <div class="footer-section footer-brand">
                     <h3>LowFODMAP</h3>
                     <p data-i18n="footer.description">Your trusted resource for Low FODMAP diet information, recipes, and support.</p>
+                    <div class="footer-social">
+                        <span data-i18n="footer.follow-us">Follow us for daily tips:</span>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <span>📘</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <span>📷</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <span>🐦</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+                
                 <div class="footer-section">
                     <h4 data-i18n="footer.quick-links">Quick Links</h4>
                     <ul>
                         <li><a href="#what-is" data-i18n="nav.what-is">What is Low FODMAP?</a></li>
                         <li><a href="#food-lists" data-i18n="nav.food-lists">Food Lists</a></li>
                         <li><a href="#recipes" data-i18n="nav.recipes">Recipes</a></li>
-                        <li><a href="#guides" data-i18n="nav.guides">Guides</a></li>
+                        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
                     </ul>
                 </div>
+        
+                
                 <div class="footer-section">
-                    <h4 data-i18n="footer.resources">Resources</h4>
+                    <h4 data-i18n="footer.external-resources">Expert Resources</h4>
                     <ul>
-                        <li><a href="#" data-i18n="footer.download-pdfs">Download PDFs</a></li>
-                        <li><a href="#" data-i18n="footer.meal-planner">Meal Planner</a></li>
-                        <li><a href="#" data-i18n="footer.food-diary">Food Diary</a></li>
-                        <li><a href="#" data-i18n="footer.support-group">Support Group</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4 data-i18n="footer.connect">Connect</h4>
-                    <ul>
-                        <li><a href="#" data-i18n="footer.newsletter">Newsletter</a></li>
-                        <li><a href="#" data-i18n="footer.contact">Contact Us</a></li>
-                        <li><a href="#" data-i18n="footer.privacy">Privacy Policy</a></li>
-                        <li><a href="#" data-i18n="footer.terms">Terms of Service</a></li>
+                        <li><a href="https://www.monashfodmap.com/ibs-central/i-have-ibs/starting-the-low-fodmap-diet/" target="_blank" data-i18n="resources.monash.title">Monash University</a></li>
+                        <li><a href="https://my.clevelandclinic.org/health/treatments/22466-low-fodmap-diet" target="_blank" data-i18n="resources.cleveland.title">Cleveland Clinic</a></li>
+                        <li><a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/fodmap-diet-what-you-need-to-know" target="_blank" data-i18n="resources.hopkins.title">Johns Hopkins</a></li>
+                        <li><a href="https://www.healthline.com/nutrition/fodmaps-101" target="_blank" data-i18n="resources.healthline.title">Healthline</a></li>
                     </ul>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p data-i18n="footer.copyright">&copy; 2024 LowFODMAP Guide. All rights reserved. | This website is for informational purposes only and should not replace professional medical advice.</p>
+                <div class="footer-bottom-content">
+                    <p data-i18n="footer.copyright">&copy; 2025 LowFODMAP Guide. All rights reserved.</p>
+                    <p data-i18n="footer.disclaimer">This website is for informational purposes only and should not replace professional medical advice.</p>
+                </div>
             </div>
         </div>
     </footer>

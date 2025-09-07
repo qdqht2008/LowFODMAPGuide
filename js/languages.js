@@ -472,7 +472,63 @@ const translations = {
         'common.view-all': 'View All',
         'common.download': 'Download',
         'common.close': 'Close',
-        'common.menu': 'Menu'
+        'common.menu': 'Menu',
+        
+        // Guide Page
+        'guides.page.title': 'Low FODMAP Guides & Tips - Complete Resource for Success',
+        'guides.page.description': 'Comprehensive Low FODMAP guides covering getting started, dining out, grocery shopping, and avoiding common mistakes. Expert tips for your digestive health journey.',
+        'guides.page.subtitle': 'Everything you need to succeed on your Low FODMAP journey',
+        
+        // Getting Started Guide
+        'guides.getting-started.page.title': 'Getting Started with Low FODMAP - Complete Beginner\'s Guide',
+        'guides.getting-started.page.description': 'Complete beginner\'s guide to starting the Low FODMAP diet. Learn how to prepare, what tools you need, and how to successfully begin your digestive health journey.',
+        'guides.getting-started.intro': 'A complete beginner\'s guide to starting your Low FODMAP journey successfully.',
+        
+        // Video Section
+        'video.title': 'Learn More About Low FODMAP',
+        'video.subtitle': 'Watch this comprehensive guide to understand the Low FODMAP diet better',
+        
+        // Resources Section
+        'resources.title': 'Trusted Resources & Further Reading',
+        'resources.subtitle': 'Explore these authoritative sources for more in-depth information about the Low FODMAP diet',
+        'resources.cleveland.title': 'Cleveland Clinic',
+        'resources.cleveland.desc': 'Comprehensive medical information about Low FODMAP diet from a leading healthcare institution',
+        'resources.monash.title': 'Monash University',
+        'resources.monash.desc': 'The original creators of the Low FODMAP diet - the most authoritative source',
+        'resources.hopkins.title': 'Johns Hopkins Medicine',
+        'resources.hopkins.desc': 'Expert medical guidance on FODMAP diet from Johns Hopkins',
+        'resources.healthline.title': 'Healthline',
+        'resources.healthline.desc': 'Evidence-based information about FODMAPs and digestive health',
+        'resources.virginia.title': 'UVA Health Guide',
+        'resources.virginia.desc': 'Detailed PDF guide with comprehensive Low FODMAP instructions',
+        'resources.dietvsdisease.title': 'Diet vs Disease',
+        'resources.dietvsdisease.desc': 'DIY Low FODMAP diet guide with practical implementation tips',
+        'resources.visit': 'Visit Resource',
+        'resources.note': 'These resources are provided for educational purposes only. Always consult with a healthcare professional before making significant dietary changes.',
+        
+        // External Resources
+        'external.title': 'Expert Resources for Getting Started',
+        'external.subtitle': 'Get additional guidance from trusted medical institutions and experts',
+        'external.monash.title': 'Monash University FODMAP App',
+        'external.monash.desc': 'The official app from the creators of the Low FODMAP diet',
+        'external.cleveland.title': 'Cleveland Clinic Guide',
+        'external.cleveland.desc': 'Comprehensive medical information about starting the diet',
+        'external.virginia.title': 'UVA Health PDF Guide',
+        'external.virginia.desc': 'Detailed step-by-step instructions for beginners',
+        'external.learn': 'Learn More',
+        'external.download': 'Download PDF',
+        'external.dining.title': 'Expert Resources for Dining Out',
+        'external.dining.subtitle': 'Additional tips and strategies from healthcare professionals',
+        'external.hopkins.title': 'Johns Hopkins Dining Guide',
+        'external.hopkins.desc': 'Professional guidance on maintaining your diet while eating out',
+        'external.healthline.title': 'Healthline Restaurant Tips',
+        'external.healthline.desc': 'Evidence-based strategies for dining out with dietary restrictions',
+        
+        // Footer
+        'footer.follow-us': 'Follow us for daily tips:',
+        'footer.guides': 'Guides & Tips',
+        'footer.external-resources': 'Expert Resources',
+        'footer.disclaimer': 'This website is for informational purposes only and should not replace professional medical advice.'
     },
     
     'zh': {
@@ -933,7 +989,63 @@ const translations = {
         'common.view-all': '查看全部',
         'common.download': '下载',
         'common.close': '关闭',
-        'common.menu': '菜单'
+        'common.menu': '菜单',
+        
+        // Guide Page
+        'guides.page.title': '低FODMAP指南与技巧 - 成功完整资源',
+        'guides.page.description': '全面的低FODMAP指南，涵盖开始使用、外出就餐、杂货购物和避免常见错误。为您的消化健康之旅提供专家建议。',
+        'guides.page.subtitle': '在您的低FODMAP旅程中取得成功所需的一切',
+        
+        // Getting Started Guide
+        'guides.getting-started.page.title': '低FODMAP入门指南 - 完整初学者指南',
+        'guides.getting-started.page.description': '开始低FODMAP饮食的完整初学者指南。了解如何准备、需要什么工具以及如何成功开始您的消化健康之旅。',
+        'guides.getting-started.intro': '成功开始您的低FODMAP旅程的完整初学者指南。',
+        
+        // Video Section
+        'video.title': '了解更多关于低FODMAP',
+        'video.subtitle': '观看这个综合指南，更好地理解低FODMAP饮食',
+        
+        // Resources Section
+        'resources.title': '可信资源与进一步阅读',
+        'resources.subtitle': '探索这些权威来源，获取关于低FODMAP饮食的更深入信息',
+        'resources.cleveland.title': '克利夫兰诊所',
+        'resources.cleveland.desc': '来自领先医疗机构的低FODMAP饮食综合医疗信息',
+        'resources.monash.title': '莫纳什大学',
+        'resources.monash.desc': '低FODMAP饮食的原创者 - 最权威的来源',
+        'resources.hopkins.title': '约翰霍普金斯医学',
+        'resources.hopkins.desc': '来自约翰霍普金斯的FODMAP饮食专家医疗指导',
+        'resources.healthline.title': 'Healthline',
+        'resources.healthline.desc': '关于FODMAP和消化健康的循证信息',
+        'resources.virginia.title': 'UVA健康指南',
+        'resources.virginia.desc': '包含综合低FODMAP说明的详细PDF指南',
+        'resources.dietvsdisease.title': 'Diet vs Disease',
+        'resources.dietvsdisease.desc': '包含实用实施技巧的DIY低FODMAP饮食指南',
+        'resources.visit': '访问资源',
+        'resources.note': '这些资源仅供教育目的。在进行重大饮食改变之前，请务必咨询医疗专业人士。',
+        
+        // External Resources
+        'external.title': '专家资源 - 入门指南',
+        'external.subtitle': '从可信的医疗机构和专家那里获取额外指导',
+        'external.monash.title': '莫纳什大学FODMAP应用',
+        'external.monash.desc': '来自低FODMAP饮食创造者的官方应用',
+        'external.cleveland.title': '克利夫兰诊所指南',
+        'external.cleveland.desc': '关于开始饮食的综合医疗信息',
+        'external.virginia.title': 'UVA健康PDF指南',
+        'external.virginia.desc': '为初学者提供的详细分步说明',
+        'external.learn': '了解更多',
+        'external.download': '下载PDF',
+        'external.dining.title': '外出就餐专家资源',
+        'external.dining.subtitle': '来自医疗专业人士的额外技巧和策略',
+        'external.hopkins.title': '约翰霍普金斯就餐指南',
+        'external.hopkins.desc': '关于在外就餐时维持饮食的专业指导',
+        'external.healthline.title': 'Healthline餐厅技巧',
+        'external.healthline.desc': '针对饮食限制外出就餐的循证策略',
+        
+        // Footer
+        'footer.follow-us': '关注我们获取每日小贴士：',
+        'footer.guides': '指南与技巧',
+        'footer.external-resources': '专家资源',
+        'footer.disclaimer': '本网站仅供信息参考，不应替代专业医疗建议。'
     }
 };
 
